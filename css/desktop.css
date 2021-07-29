@@ -1,0 +1,142 @@
+:root{
+    --mainRed:#A34836;
+    --mainWhite:white;
+    --main-blue:#121B23;
+    --marginSections: 20px;
+    --secondBlue:#C6EAFF;
+}
+
+.init{
+    height: 200px;
+}
+
+header{
+    background-color: var(--mainRed);
+    padding: 0%;
+    height: 40px;
+
+}
+
+
+.nav--icon, .know-more--button, header img{
+    display: none;
+}
+
+.main--nav ul{
+    width: 100%;
+    display: flex;
+    height: 20px;
+    justify-content: space-evenly;
+    background-color: var(--mainRed);
+    list-style: none;
+}
+
+.main--nav{
+    display: block;
+    width: 100vw;
+}
+
+main{
+    margin-top: 60px;
+}
+
+main video{
+    max-width: 500px;
+}
+
+.story-line{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+.story-line p{
+    max-width: 255px;
+}
+
+
+.story--container{
+    margin-right: 32px;
+}
+
+.story--container h2{
+    color: var(--secondBlue);
+}
+
+.story-line--pictures--container{
+    margin:auto
+}
+.intention--section{
+    background-color: var(--mainRed);
+    flex-direction: row-reverse;
+    height: 100vh;
+
+}
+
+.intention--section h2{
+    font-size: xx-large;
+}
+
+.intention--container{
+    width: 80%; 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+.intention--container p{
+    max-width: 255px;
+
+}
+
+.how-to-help--section{
+    display: flex;
+    flex-direction: column;
+    padding: 9% 9% 0;
+}
+
+
+.help--container{
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.help--container h2{
+    font-size: xx-large;
+    max-width: 20rem;
+}
+
+.help--container p{
+    max-width: 300px;
+    padding-top: 0;
+}
+
+.steps--container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: none;
+    margin: 0;
+    padding-top: 7rem;
+}
+
+.steps--container figure img {
+    width: 188px;
+    margin-top: 20px;
+}
+
+.how-to-help--section a{
+    position: relative;
+    left: 70%;
+    margin: 5rem 0;
+}

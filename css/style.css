@@ -1,0 +1,261 @@
+:root{
+    --mainRed:#B84B3E;
+    --mainWhite:white;
+    --main-blue:#121B23;
+    --marginSections: 20px;
+    --secondBlue:#C6EAFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem;
+    min-width: fit-content;
+    font-family: Helvetica;
+}
+
+img{
+    margin: 0rem;
+}
+
+section{
+    height: 100vh;
+}
+
+.init{
+    /* background-image: url('../imagenes/pruebaVertical.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+
+    background-color: rgb(253, 253, 233);
+    /* text-align: center; */
+    /* margin: auto 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img{
+    width: 250px;
+}
+
+.know-more--button{
+    position: relative;
+    top: 28%;
+    padding: 5px;
+    min-width: 170px;
+    width: 70%;
+    max-width: 270px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--mainRed);
+    border-radius: 25px;
+    color: var(--mainWhite);
+}
+
+.main--nav{
+    display: none;
+}
+
+header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: var(--mainWhite);
+}
+
+.nav--icon{
+    position: relative;
+    right: calc(25% - 35px);
+}
+
+.nav--icon img{
+    width: 20px;
+}
+
+header img{
+    width: 190px;
+}
+
+main{
+    text-align: center;
+    margin-top: var(--marginSections);
+}
+
+main video{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 70%;
+    max-width: 360px;
+}
+
+.story-line{
+    background-color: #121B23;
+    margin-top: var(--marginSections);
+    padding-top:20px ;
+    height: 100vh;
+    
+}
+
+.story--container{
+    width: 60%;
+    min-width: 325px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.story--container h2{
+    color: var(--mainRed);
+    font-size:xxx-large;
+}
+
+.story--container p{
+    font-size: 1.2rem;
+    padding: 2px;
+    padding-top: 10px;
+    color: var(--secondBlue);
+}
+
+.story-line--pictures--container{
+    width: 192px;
+    height: 50%;
+    margin: 14px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+    
+
+.story-line--pictures--container div{
+    margin: 2px;
+
+
+}
+
+.story-line--pictures--container .mini--picture{
+    background-color: var(--secondBlue);
+    width: 60px;
+    height: 60px;
+}
+
+#id-first--picture{
+    width: 150px;
+    height: 138px;
+    margin-bottom: 0px;
+    background-color: var(--secondBlue);
+}
+
+.mini--pictures--container{
+    height: 30%;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.id-intention--section{
+    height: 280px;
+}
+
+.intention--section{
+    display: flex;
+    color: var(--main-blue);
+}
+
+.intention--container, .help--container{
+    width: 60%;
+    min-width: 325px;
+    max-width: 450px;
+    margin: var(--marginSections) auto 0;
+    padding: 0 30px;
+}
+
+.intention--container{
+    margin-top: 60px;
+}
+
+.intention--container p, .help--container p{
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: 2px;
+    padding-top: 10px;
+}
+
+.help--container h2{
+    width: 55%;
+}
+
+.help--container{
+    margin-top: 0px;
+}
+
+.how-to-help--section{
+    height: auto;
+    padding: 40px 0px;
+}
+.how-to-help--section a{
+    width: 200px;
+    background-color: var(--main-blue);
+    border-radius: 12px;
+    color: var(--mainWhite);
+    padding:4px 15px;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto 0;
+ 
+}
+
+.steps--container{
+    width: 45%;
+    min-width: 254px;
+    max-width: 450px;
+    margin: 80px auto 0px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.steps--container a{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+}
+
+.steps--container figure img{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+.steps--container figure figcaption{
+    text-align: center;
+}
+
+footer{
+
+    height: 65px;
+    background-color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mainWhite);
+}
+
