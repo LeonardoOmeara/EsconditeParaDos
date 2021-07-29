@@ -93,7 +93,7 @@ main video{
 }
 
 .production--section{
-    background-color: var(--secondBlue);
+    background-color: var(--mainRed);
 }
 
 .production--container{
