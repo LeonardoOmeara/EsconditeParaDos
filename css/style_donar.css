@@ -82,6 +82,7 @@ header img{
 
 .country--section{
     background-color: var(--mainRed);
+    height: 110vh;
 }
 
 .country-info--container{
@@ -112,80 +113,106 @@ header img{
     text-align: center;
 }
 
+.why-to-help--section{
+    height: 70%;
+}
 
+.help--container{
+    color: var(--main-blue);
+    padding: 4rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.help--container h2{
+    font-size: xxx-large;
+
+}
+
+.help--container p{
+    padding-top: 3rem;
+    width: 80%;
+}
+
+/* 
+.help--container{
+
+    max-width: 40rem;
+    padding: 5rem;
+    color: var(--main-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help--container h2{
+    font-size: xx-large;
+}
+
+.help--container p{
+    padding: 3rem 2rem 2rem;
+} */
 
 
 
 
 /*****************************************************/
-.why-help--section{
+.ways-to-support--section, .expl--section{
     height: auto;
-    padding: 40px 0px;
-}
-.why-help--section a{
-    width: 200px;
-    background-color: var(--main-blue);
-    border-radius: 12px;
-    color: var(--mainWhite);
-    padding:4px 15px;
-    text-decoration: none;
-    display: block;
-    margin: 20px auto 0;
- 
-}
-.help--container{
-    width: 60%;
-    min-width: 325px;
-    max-width: 450px;
-    margin: var(--marginSections) auto 0;
-    padding: 0 30px;
-}
-
-.help--container h2{
-    width: 55%;
-}
-
-.help--container{
-    margin-top: 0px;
+    padding-top: 5rem;
 }
 
 
-.steps--container{
-    width: 45%;
-    min-width: 254px;
-    max-width: 450px;
-    margin: 80px auto 0px;
-    padding: 0 30px;
+
+.ways-to-support--container, .expl--container{
+    padding: 0 4rem 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column  ;
+    color: var(--main-blue);
 }
 
-.steps--container a{
-    display: block;
-    width: 210px;
-    margin: 0 auto;
+.way--container{
+    margin-top: 2rem
 }
-
-.steps--container figure img{
+.way--container figure img{
     width: 100px;
     margin-top: 20px;
-    
 }
 
-.steps--container figure figcaption{
-    text-align: center;
+.ways-to-support--container h2, .expl--container h2{
+    font-size: xx-large;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
+.chanel-of-support-img{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--main-blue);
+    margin:0 auto
+}
+
+.explanation--section{
+    background-color: var(--main-blue);
+    color: var(--secondBlue);
+    padding-top: 3rem;
+}
+
+.expl--container{
+    color: var(--secondBlue);
+}
 
 footer{
 
     height: 65px;
-    background-color: var(--main-blue);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--mainWhite);
+    color: var(--mainBlue);
 }

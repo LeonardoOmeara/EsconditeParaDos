@@ -96,8 +96,8 @@ main{
 
 main iframe{
     margin-top: 10px;
-    height: 15rem;
-    width: 25rem;
+    height: 20rem;
+    width: 30rem;
 
 }
 
@@ -208,6 +208,7 @@ main iframe{
 .how-to-help--section{
     height: auto;
     padding: 40px 0px;
+    color: var(--main-blue);
 }
 .how-to-help--section a{
     width: 200px;

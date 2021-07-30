@@ -10,6 +10,11 @@
 .init{
     display: none;
 }
+main iframe{
+    margin-top: 10px;
+    width: 48rem;
+    height: 28rem;
+}
 
 header{
     background-color: var(--headerColor);
@@ -44,6 +49,11 @@ header img{
     justify-content: space-evenly;
     background-color: var(--mainRed);
     list-style: none;
+}
+
+.main--nav a{
+    text-decoration: none;
+    color: white;
 }
 
 
