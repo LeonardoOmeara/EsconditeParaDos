@@ -1,4 +1,5 @@
 :root{
+    --headerColor:#FDFDE9;
     --mainRed:#B84B3E;
     --mainWhite:white;
     --main-blue:#121B23;
@@ -35,8 +36,7 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain; */
-
-    background-color: rgb(253, 253, 233);
+    background-color: var(--headerColor);
     /* text-align: center; */
     /* margin: auto 0; */
     display: flex;
@@ -68,8 +68,8 @@ section{
 }
 
 header{
-
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
@@ -91,14 +91,14 @@ header img{
 
 main{
     text-align: center;
-    margin-top: var(--marginSections);
+    padding-top: var(--marginSections);
 }
 
-main video{
-    border: 1px solid black;
+main iframe{
     margin-top: 10px;
-    width: 70%;
-    max-width: 360px;
+    height: 15rem;
+    width: 25rem;
+
 }
 
 .story-line{
