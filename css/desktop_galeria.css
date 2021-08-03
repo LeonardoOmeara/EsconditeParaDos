@@ -69,7 +69,6 @@ main iframe{
 
 .production-title--container{
     position: absolute;
-    top: 10rem;
     left: calc(50% - 2rem);
     width: auto;
 }

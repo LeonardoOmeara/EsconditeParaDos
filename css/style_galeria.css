@@ -77,7 +77,8 @@ header img{
 
 main{
     text-align: center;
-    margin-top: var(--marginSections);
+    background-color: var(--mainRed);
+    padding-top: var(--marginSections);
 }
 
 main video{
@@ -91,6 +92,14 @@ main video{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+.bs--container h1{
+    color: var(--mainWhite);
+    font-weight: 500;
+    width: 50%;
+    font-size:3.5rem;
 }
 
 .bs-pictures--container{
@@ -108,7 +117,7 @@ main video{
 }
 
 .production--section{
-    background-color: var(--mainRed);
+    background-color: var(--mainWhite);
     height: 70vh;
 }
 
@@ -135,8 +144,9 @@ main video{
 }
 
 .production-title--container h2{
-    color: var(--main-blue);
-    font-size: x-large;
+    color: var(--secondBlue);
+    font-size: xx-large;
+    font-weight: 500;
 }
 
 
