@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width:800px)">
     <title>Cortometraje</title>
+    <script src="https://kit.fontawesome.com/f0b1a1ab06.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="init">
@@ -15,25 +19,30 @@
         </div>
         <a href="#page-init" class="know-more--button">Conoce el proyecto</a>
     </section>
-    <header id="page-init"> 
-        <img src="./imagenes/pngegg.png" alt="">
-        <nav class="main--nav">
+    <header id="page-init">
+        <nav>
             <ul>
-                <li><a href="index.html">El escondite</a></li>
+                <li><a class= "active" href="index.html">El escondite</a></li>
                 <li><a href="./index/crew.html">El Crew</a></li>
                 <li><a href="./index/galeria.html">Galeria</a></li>
                 <li><a href="./index/donar.html">Donar</a></li>
+                <li><a href="https://instagram.com"><span class="ig-logo">IG</span></a></li>
             </ul>
+            <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <div class="logo--container">
+                <img class="logo" src="./imagenes/pngegg.png" alt="">
+            </div>
         </nav>
-        <span class="nav--icon">
-            <img src="./iconos/nav-icon.png" alt="">
-        </span>
+
     </header>
     <main>
         <h1>Teaser</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qXkzWu9r0rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
     <section class="story-line">
+        <img src="./imagenes/colaborador_estrella.png" alt="">
         <div class="story--container">
             <h2>Story-Line</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad esse voluptatum, neque sit totam ullam a officiis quidem aperiam corporis quam perspiciatis rem, explicabo optio omnis facere, dignissimos voluptatibus.
@@ -51,6 +60,7 @@
         </div>
     </section>
     <section class="intention--section id-intention--section">
+        <img src="./imagenes/hermano_de_sangre.png" alt="">
         <div class="intention--container"> 
             <h2>Intención</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident unde illum ea commodi itaque rerum doloremque fuga necessitatibus vero, fugiat dolorem architecto. Sequi, qui. Accusamus voluptate quae quaerat blanditiis deleniti.
@@ -82,5 +92,26 @@
     <footer>
         <p>Escondite para dos, 2021</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(".hide").on('click', function(){
+            $("nav ul").toggle('slow');
+            $("nav").css('background', '#121B23')
+            // $("nav").css('flex-direction', 'column')
+        })
+
+        var $nav = $('nav');
+        $nav.hide();
+        var altura = ($('main').offset().top)*1.1;
+        $(window).scroll(function(){
+            if ($(window).scrollTop() >=altura){
+                $nav.show();
+            }
+            else{
+                $nav.hide()
+            }
+        })
+    </script>
 </body>
 </html>

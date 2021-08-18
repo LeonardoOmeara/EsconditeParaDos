@@ -43,9 +43,17 @@ header img{
     list-style: none;
 }
 
-.main--nav a{
+.main--nav ul li a{
     text-decoration: none;
     color: white;
+    font-weight: 500;
+    padding: 18px 13px;
+    transition: all 0.3s ease;
+}
+
+.main--nav ul li a:hover, .main--nav ul li a.active{
+    background-color: white;
+    color: var(--mainRed);
 }
 
 
