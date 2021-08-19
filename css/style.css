@@ -83,7 +83,7 @@ header nav{
 
 header nav{
     /* background-color: #B4CACD; */
-    height: auto;
+    height: 12%;
     position: fixed;
     /* left: 20px; */
     top: 0;
@@ -138,7 +138,7 @@ header nav ul li a:hover{
     cursor: pointer;
     display: inline;
     position: relative;
-    top: 12px;
+    top: 21px;
 }
 
 
