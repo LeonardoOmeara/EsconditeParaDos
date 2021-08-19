@@ -32,6 +32,15 @@ nav ul{
     height: unset !important;
 }
 
+nav ul li a{
+    font-size: 17px !important;
+    padding: 22px 30px !important;
+}
+
+/* nav ul li .active{
+
+} */
+
 header{
     height: 100vh;
 }

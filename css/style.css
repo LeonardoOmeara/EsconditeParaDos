@@ -126,6 +126,7 @@ header nav ul li a{
     transition: all 0.3s ease;
     color: white;
     /* display: block; */
+    text-decoration: none;
 }
 
 
@@ -280,7 +281,7 @@ main{
     /* color: var(--secondBlue); */
     font-size: 70%;
     /* text-align: center; */
-    padding: 70px 0;
+    padding: 70px 24px;
     background-color: var(--main-blue);
     height: 70vh;
     display: flex;
@@ -296,12 +297,16 @@ main h1{
     padding-bottom: 25px;
 }
 
+main .ratio{
+    max-width: 465px;
+}
+/* 
 main iframe{
-    /* margin-top: 10px; */
+    margin-top: 10px;
     height: 20rem;
     width: 30rem;
 
-}
+} */
 
 .story-line{
     background-color: #121B23;
