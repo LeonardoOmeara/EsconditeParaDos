@@ -7,7 +7,7 @@
     --secondBlue:#C6EAFF;
 }
 
-.init{
+.init, .know-more--button{
     display: none;
 }
 main iframe{
@@ -16,16 +16,42 @@ main iframe{
     height: 28rem;
 }
 
-header nav{
-    display: none;
+nav{
+    display: block !important;
+}
+/* Esta linea se puede quitar para que no este fijo desde un comienzo */
+
+
+nav .hide, header nav .logo--container{
+    display: none !important;
 }
 
 
-.nav--icon, .know-more--button{
-    display: none;
+nav ul{
+    display: flex !important;
+    height: unset !important;
 }
 
-.main--nav ul{
+header{
+    height: 100vh;
+}
+
+header .desktop-logo{
+    display: block;
+    width: 730px;
+}
+
+header nav ul .ig-logo-li{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* .main--nav ul{
     width: 100%;
     display: flex;
     height: auto;
@@ -34,12 +60,12 @@ header nav{
     list-style: none;
     position: initial;
     align-items: center;
-}
+} */
 
-.main--nav ul li{
+/* .main--nav ul li{
     min-width: 125px;
     
-}
+} */
 
 /* .main--nav ul li a{
     text-decoration: none;

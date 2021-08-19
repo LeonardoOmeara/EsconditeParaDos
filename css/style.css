@@ -74,6 +74,10 @@ header{
     align-items: center;
 
 }
+
+header .desktop-logo{
+    display: none;
+}
 /* 
 header nav{
     background-color: var(--main-blue);
@@ -83,7 +87,7 @@ header nav{
 
 header nav{
     /* background-color: #B4CACD; */
-    height: 12%;
+    height: 64px;
     position: fixed;
     /* left: 20px; */
     top: 0;
@@ -276,7 +280,7 @@ main{
     /* color: var(--secondBlue); */
     font-size: 70%;
     /* text-align: center; */
-    padding-top: var(--marginSections);
+    padding: 70px 0;
     background-color: var(--main-blue);
     height: 70vh;
     display: flex;
