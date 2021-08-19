@@ -18,6 +18,7 @@ main iframe{
 
 nav{
     display: block !important;
+    height: 0 !important;
 }
 /* Esta linea se puede quitar para que no este fijo desde un comienzo */
 
