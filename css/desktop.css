@@ -10,6 +10,9 @@
 .init, .know-more--button{
     display: none;
 }
+main{
+    height: 650px;
+}
 main iframe{
     margin-top: 10px;
     width: 48rem;
@@ -48,7 +51,8 @@ header{
 
 header .desktop-logo{
     display: block;
-    width: 730px;
+    width: 100vw;
+    padding-top: 2%;
 }
 
 header nav ul .ig-logo-li{
@@ -93,8 +97,10 @@ header nav ul .ig-logo-li{
 
 .story-line{
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding-bottom: 20px;
+    padding: 20px 10%;
     
 }
 
@@ -114,10 +120,20 @@ header nav ul .ig-logo-li{
 .story-line--pictures--container{
     margin:auto
 }
+
+.story-line img{
+    width: 270px;
+    position: absolute;
+    /* top: 935px; */
+    top: -94px;
+    right: 84%;
+}
+
 .intention--section{
-    background-color: var(--mainRed);
+    /* background-color: var(--mainRed); */
     flex-direction: row-reverse;
     height: 100vh;
+    /* position: relative; */
 
 }
 
@@ -175,13 +191,27 @@ header nav ul .ig-logo-li{
     max-width: none;
     margin: 0;
     padding-top: 7rem;
+    position: initial;
+    padding-right: 215px;
+    flex-wrap: nowrap;
+
 }
+
+
 
 .steps--container figure img {
     width: 188px;
     margin-top: 20px;
 }
 
+.how-to-help--section .steps--container .cometa {
+    width: 215px;
+    position: relative;
+    left: 453px;
+    /* bottom: 493px; */
+    /* bottom: -68px; */
+    top: -735px;
+}
 .how-to-help--section a{
     position: relative;
     left: 70%;

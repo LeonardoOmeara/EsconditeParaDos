@@ -87,7 +87,7 @@ header nav{
 
 header nav{
     /* background-color: #B4CACD; */
-    height: 64px;
+    /* height: 64px; */
     position: fixed;
     /* left: 20px; */
     top: 0;
@@ -105,6 +105,8 @@ header nav ul{
     /* height: 4rem; */
     text-align: center;
     background-color: #B4CACD;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 header nav ul .ig-logo-li{
@@ -279,7 +281,7 @@ header .logo{
 main{
     /* font-size: normal; */
     /* color: var(--secondBlue); */
-    font-size: 70%;
+    font-size: 500px;
     /* text-align: center; */
     padding: 70px 24px;
     background-color: var(--main-blue);
@@ -336,12 +338,11 @@ main iframe{
 }
 
 .story-line img{
-    width: 26%;
+    width: 270px;
     position: absolute;
     /* top: 935px; */
-    
-    top: 0;
-    left: -42px;
+    bottom: 88px;
+    right: 57%;
 
 }
 
@@ -410,11 +411,11 @@ main iframe{
 }
 
 .intention--section img{
-    width: 28%;
-    max-width: 111px;
+    width: 261px;
+    /* max-width: 111px; */
     position: absolute;
-    left: 70%;
-    top: -42px;
+    right: 55%;
+    top: 700px;
 }
 
 .intention--container, .help--container{
@@ -431,7 +432,7 @@ main iframe{
 }
 
 .intention--container p, .help--container p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.2;
     padding: 2px;
     padding-top: 10px;
@@ -472,8 +473,19 @@ main iframe{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position:relative;
     
 }
+
+.steps--container .cometa{
+    width: 68%;
+    /* max-width: 111px; */
+    position: absolute;
+    right: 65%;
+    top: 100px;
+}
+
+
 
 .steps--container a{
     display: block;
@@ -491,6 +503,7 @@ main iframe{
     text-align: center;
 }
 
+
 footer{
     width: inherit;
     height: 65px;
@@ -500,4 +513,5 @@ footer{
     align-items: center;
     color: var(--mainWhite);
 }
+
 
