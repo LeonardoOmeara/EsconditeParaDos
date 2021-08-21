@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Georama&family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style_crew.css">
-    <link rel="stylesheet" href="../css/desktop_galeria.css" media="screen and (min-width:800px)">
+    <!-- <link rel="stylesheet" href="../css/desktop_galeria.css" media="screen and (min-width:800px)"> -->
     <title>Cortometraje</title>
     <script src="https://kit.fontawesome.com/f0b1a1ab06.js" crossorigin="anonymous"></script>
 </head>
@@ -30,9 +30,15 @@
                 <img class="logo" src="../imagenes/logo-azul.png" alt="">
             </div>
         </nav>
-        <img class="desktop-logo" src="../imagenes/logo-azul.png" alt="">
+        <img class="desktop-logo" src="../imagenes/logo-amarillo.png" alt="">
     </header>
     <main>
+        <section class="members-video--section">
+            <h1>El Crew</h1>
+            <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qXkzWu9r0rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
         <section class="crew-members--section">
             <div class="members--container">
                 <div class="just-member--container member1">
@@ -128,5 +134,33 @@
             </section>
         </section>
     </main>
+    <footer>
+        <p>Escondite para dos, 2021</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+
+        $(".hide").on('click', function(){
+            $("nav ul").toggle('slow');
+            // $("nav").css('background', '#121B23')
+            $("nav").css('height', 'auto')
+
+            // $("nav").css('flex-direction', 'column')
+        })
+
+        // por si quiero que se vea el nav en una parrte de la pagina
+
+        // var $nav = $('nav');
+        // $nav.hide();
+        // var altura = ($('main').offset().top)*1.1;
+        // $(window).scroll(function(){
+        //     if ($(window).scrollTop() >=altura){
+        //         $nav.show();
+        //     }
+        //     else{
+        //         $nav.hide()
+        //     }
+        // })
+    </script>
 </body>
 </html>

@@ -17,6 +17,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -118,7 +119,10 @@ header nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.5px solid #d0cfca;
 }
+
+
 
 
 header nav ul li a{
@@ -133,6 +137,13 @@ header nav ul li a{
 
 header nav ul li a:hover{
     background-color: var(--main-blue);
+    height: 100%;
+    width: 100%;
+    align-items: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 
 }
 

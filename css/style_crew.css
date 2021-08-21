@@ -26,7 +26,7 @@ body{
 }
 
 header{
-    background-color: #B4CACD;
+    /* background-color: var(--main-blue); */
     width: 100vw;
     /* height: 100px; */
     display: flex;
@@ -52,7 +52,7 @@ header nav{
     /* left: 20px; */
     top: 0;
     width: 100vw;
-    background-color: var(--main-blue);
+    background-color: var(--mainWhite);
     z-index: 1;
 }
 
@@ -79,23 +79,33 @@ header nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.5px solid #d0cfca;
 }
 
-
 header nav ul li a{
-    font-size: 19px;
+    font-size: 19px ;
     padding: 22px 45px;
     transition: all 0.3s ease;
     color: white;
     /* display: block; */
-    text-decoration: none;
+    text-decoration: none ;
+
 }
 
 
 header nav ul li a:hover{
     background-color: var(--main-blue);
+    height: 100%;
+    width: 100%;
+    align-items: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 
 }
+
+
 
 .hide{
     font-size: 22px;
@@ -108,6 +118,10 @@ header nav ul li a:hover{
     top: 21px;
 }
 
+
+nav .hide .fa{
+    color: var(--main-blue);
+}
 
 
 
@@ -134,60 +148,70 @@ section{
     height: a;
 } */
 
-main iframe{
+/* main iframe{
     margin-top: 10px;
     height: 20rem;
     width: 30rem;
 
-}
-
-.init{
-    display: none;
-}
-
+} */
+/* 
 .main--nav{
     display: none;
-}
+} */
 
-header{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    color: var(--mainWhite);
-}
 
-.nav--icon{
-    position: relative;
-    right: calc(25% - 35px);
-}
 
-.nav--icon img{
-    width: 20px;
-}
+
+
 
 header img{
     width: 190px;
 }
 
 main{
-    text-align: center;
-    padding-top: var(--marginSections);
+    /* font-size: normal; */
+    /* color: var(--secondBlue); */
+    /* font-size: 500px; */
+    /* text-align: center; */
+    /* padding: 70px 24px; */
+    /* background-color: var(--main-blue); */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 65px;
 }
 
-.crew-members__video--section h2{
+main h1{
+    color: var(--main-blue);
     font-weight: 500;
-    color: #214255;
-    font-size: 3.5rem;
+    font-size:3.5rem;
+    padding-bottom: 25px;
 }
+
+.members-video--section{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0 15px;
+}
+
+.members-video--section .ratio{
+    max-width: 465px;
+}
+
+
 
 .crew-members--section{
     background-color: #121B23;
     width: 100%;
     padding: 2rem;
 }
-
+/* 
 .member1 { grid-area: m1; }
 .member2 { grid-area: m2; }
 .member3 { grid-area: m3; }
@@ -218,22 +242,32 @@ main{
 /* .just-member--container.member3 .just-member--container.member4 .just-member--container.member5
 .just-member--container.member8 .just-member--container.member9{
     align-items: flex-end;
-} */
+}
+*/
+/*version de posicionamiento en grillas*/
 
 
+.members--container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
 
+}
 .just-member--container{
-    width: 70%;
-    min-width: 300px;
-    max-width: 400px;
-    margin: 0 auto;
-    height: 35rem;
+    width: 300px;
+    /* min-width: 300px; */
+    /* max-width: 400px; */
+    margin: 20px auto;
+    height: 350px;
     background-color: #232c34;;
     position: relative;
     display: flex;
     flex-direction: column;
     padding: 30px;
-    padding-top: 80px ;
+    border-radius: 1px;
+    /* padding-top: 80px ; */
 }
 
 .just-member--container .member__letter{
@@ -244,9 +278,9 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 15px;
-    left: -10px;
+    position: relative;
+    top: 19px;
+    left: 20px;
 
 }
 
@@ -255,8 +289,8 @@ main{
 }
 
 .members--container .member3 .member__letter{
-   position: absolute;
-   right: -10%;
+   /* position: absolute;*/
+   left: -35px;
 }
 
 
@@ -271,4 +305,14 @@ main{
 
 .just-member--container p{
     color: var(--secondBlue);
+}
+
+footer{
+    width: inherit;
+    height: 65px;
+    background-color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mainWhite);
 }
