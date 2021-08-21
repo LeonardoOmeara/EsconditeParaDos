@@ -32,11 +32,13 @@ section{
 } */
 
 .init{
-    /* background-image: url('../imagenes/pruebaVertical.jpg');
+
+    background-image: url('../imagenes/bombillaprueba.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; */
-    background-color: var(--headerColor);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: var(--headerColor); */
     /* text-align: center; */
     /* margin: auto 0; */
     display: flex;
@@ -47,7 +49,7 @@ section{
 }
 
 .init .logo-container img{
-    width: 250px;
+    width: 350px;
 }
 
 
@@ -60,7 +62,7 @@ section{
     max-width: 270px;
     text-align: center;
     text-decoration: none;
-    background-color: var(--mainRed);
+    background-color: var(--main-blue);
     border-radius: 25px;
     color: var(--mainWhite);
 }
@@ -139,7 +141,7 @@ header nav ul li a:hover{
     background-color: var(--main-blue);
     height: 100%;
     width: 100%;
-    align-items: ;
+    /* align-items: ; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +328,6 @@ main iframe{
     padding-top:20px ;
     min-height: min-content;
     /* height: vh; */
-
     display: flex;
     flex-direction: column;
     align-items: center;

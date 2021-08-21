@@ -10,6 +10,7 @@
 .init, .know-more--button{
     display: none;
 }
+
 main{
     height: 650px;
 }
@@ -90,7 +91,14 @@ header nav ul .ig-logo-li{
     transition: all 0.3s ease;
 } */
 
-.main--nav ul li a:hover, .main--nav ul li a.active{
+nav ul li a{
+    font-size: 17px;
+    padding: 22px ;;
+    width: 100%;
+
+}
+
+.main--nav ul li a:hover{
     background-color: white;
     color: var(--mainRed);
 }

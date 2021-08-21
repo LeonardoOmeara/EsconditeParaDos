@@ -1,0 +1,74 @@
+:root{
+    --headerColor:#FDFDE9;
+    --mainRed:#A34836;
+    --mainWhite:white;
+    --main-blue:#121B23;
+    --marginSections: 20px;
+    --secondBlue:#C6EAFF;
+}
+
+body{
+    background-color: var(--main-blue);
+}
+nav{
+    display: block !important;
+    height: 0 !important;
+}
+
+
+nav ul{
+    display: flex !important;
+    height: unset !important;
+}
+
+header nav ul li{
+    border: 0.5px solid #4f4e4b;
+}
+
+nav ul li a{
+    font-size: 17px !important;
+    padding: 22px 30px !important;
+    background-color: var(--main-blue);
+    width: 100%;
+
+}
+header nav ul li a:hover{
+    background-color: var(--mainWhite);
+    color: var(--main-blue);
+}
+
+
+nav .hide, header nav .logo--container{
+    display: none;
+    
+}
+
+main .members-video--section{
+    height: 425px;
+}
+
+header{
+    height: 100vh;
+}
+
+header .desktop-logo{
+    display: block;
+    width: 100vw;
+    padding-top: 2%;
+}
+
+header nav ul .ig-logo-li{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .bici{
+    display: initial;
+    position: absolute;
+    width: 215px;
+    height: 150px;
+    top: 75%;
+    right: 70px;
+}
