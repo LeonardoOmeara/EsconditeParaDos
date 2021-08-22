@@ -33,7 +33,7 @@ section{
 
 .init{
 
-    background-image: url('../imagenes/bombillaprueba.jpg');
+    background-image: url('../imagenes/init-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,7 +46,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    opacity: 0.5;
+
 }
 
 .init .logo-container img{
@@ -419,7 +419,7 @@ main iframe{
     color: var(--main-blue);
     background-color: #B4CACD;
     position: relative;
-    height: 60vh;
+    height: 85vh;
 }
 
 .intention--section img{
