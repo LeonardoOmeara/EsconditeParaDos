@@ -157,6 +157,13 @@ main .ratio {
 
 }
 
+.intention--section img{
+    width: 21%;
+    /* max-width: 111px; */
+    left: 47%;
+    top: 231px;
+}
+
 .intention--section h2{
     font-size: xx-large;
 }
@@ -174,7 +181,8 @@ main .ratio {
 }
 
 .intention--container p{
-    max-width: 255px;
+    max-width: 355px;
+    font-size: 1.5rem;
 
 }
 

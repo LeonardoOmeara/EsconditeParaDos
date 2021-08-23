@@ -23,6 +23,7 @@ html{
 body{
     font-size: 1.4rem;
     font-family: 'Georama', sans-serif;
+    /* font-family: 'Annie Use Your Telescope', cursive; */
 }
 
 header{
@@ -186,26 +187,9 @@ main{
     padding-top: 65px;
 }
 
-main h1{
-    color: var(--main-blue);
-    font-weight: 500;
-    font-size:3.5rem;
-    padding-bottom: 25px;
-}
 
-.members-video--section{
-    height: 70vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:0 15px;
-}
 
-.members-video--section .ratio{
-    max-width: 465px;
-}
+
 
 
 
@@ -249,29 +233,49 @@ main h1{
 */
 /*version de posicionamiento en grillas*/
 
+.crew-members--section h1{
+    color: var(--secondBlue);
+    font-weight: 500;
+    font-size:xxx-large;
+    padding: 25px 0;
+    text-align: center;
+}
+
 
 .members--container{
     display: flex;
-    width: 100%;
+    width: 300px;
+    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px 0;
 
+}
+
+.members--container > div{
+    padding-bottom: 40px;
+}
+
+.production--container, .direction--container, .photography--container, .art--container{
+    display: flex;
+    flex-direction: column; 
 }
 .just-member--container{
     width: 300px;
     /* min-width: 300px; */
     /* max-width: 400px; */
     margin: 20px auto;
-    height: 350px;
+    /* height: 350px; */
     background-color: #232c34;;
     position: relative;
     display: flex;
     flex-direction: column;
     padding: 30px;
-    border-radius: 1px;
-    /* padding-top: 80px ; */
+    border-radius: 8px;
+    box-shadow: 24px;
+    box-shadow: 1px 2px 4px black;
 }
+
 
 .just-member--container .member__letter{
     display: inline-block;
@@ -287,23 +291,112 @@ main h1{
 
 }
 
-.member3, .member4, .member5, .member8, .member9{
-    align-items: flex-end;
+.just-member--container h3{
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #C6EAFF;
+    /* color: white; */
+    font-size: xx-large;
+    font-weight: 600;
 }
+
+.direction--container .just-member--container, .art--container .just-member--container{
+    align-items: flex-end;
+
+}
+
+.direction--container .just-member--container h3, .art--container .just-member--container h3{
+    color: #fff;
+}
+/* .member3, .member4, .member5, .member8, .member9{
+    align-items: flex-end;
+} */
 
 .members--container .member3 .member__letter{
    /* position: absolute;*/
    left: -35px;
 }
 
+.department .title{
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.odd .title{
+    color: var(--secondBlue);
+}
 
 .just-member--container .circle{
-    display: inline-block;
     width: 100px;
     height: 100px;
-    background-color: var(--mainWhite);
-    border-radius: 100%;
-    margin-bottom: 25px;
+    /* background-image: url(../imagenes/miembros/andres_adarme.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.member1 .circle{
+    background-image: url(../imagenes/miembros/1.jpg);
+}
+
+/* .member1 p strong{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: xxx-large;
+} */
+.member2 .circle{
+    background-image: url(../imagenes/miembros/2.jpg);
+}
+.member3 .circle{
+    background-image: url(../imagenes/miembros/3.jpeg);
+}
+.member4 .circle{
+    background-image: url(../imagenes/miembros/4.jpeg);
+}
+.member5 .circle{
+    background-image: url(../imagenes/miembros/5.JPG);
+}
+.member6 .circle{
+    background-image: url(../imagenes/miembros/6.jpg);
+}
+.member7 .circle{
+    background-image: url(../imagenes/miembros/7.jpg);
+}
+.member8 .circle{
+    background-image: url(../imagenes/miembros/8.jpeg);
+}
+.member9 .circle{
+    background-image: url(../imagenes/miembros/9.jpg);
+}
+.member10 .circle{
+    background-image: url(../imagenes/miembros/10.jpeg);
+}
+.member11 .circle{
+    background-image: url(../imagenes/miembros/11.jpeg);
+}
+.member12 .circle{
+    background-image: url(../imagenes/miembros/12.jpg);
+}
+.member13 .circle{
+    background-image: url(../imagenes/miembros/13.jpg);
+}
+.member14 .circle{
+    background-image: url(../imagenes/miembros/14.jpeg);
+}
+.member15 .circle{
+    background-image: url(../imagenes/miembros/15.jpeg);
+}
+.member16 .circle{
+    background-image: url(../imagenes/miembros/16.jpeg);
+}
+.member17 .circle{
+    background-image: url(../imagenes/miembros/17.jpeg);
+}
+.member18 .circle{
+    background-image: url(../imagenes/miembros/18.jpeg);
 }
 
 .just-member--container p{

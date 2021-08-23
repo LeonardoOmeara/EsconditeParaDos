@@ -195,14 +195,57 @@ main .ratio{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    max-width: 610px;
 }
 
 .picture--container{
-    background-color: var(--main-blue);
-    width: 10rem;
-    height: 10rem;
+    width: 19rem;
+    height: 15rem;
     margin: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+.bs-pictures--container .main1, .bs--container .main2{
+    width: 300px;
+    height: 215px;
+    max-width: 230px;
+}
+
+.bs-pictures--container .main1{
+    background-image: url('../imagenes/DDC/optimas/1-min.jpg');
+}
+.bs-pictures--container .main2{
+    background-image: url('../imagenes/DDC/optimas/2.jpg');
+}
+.bs-pictures--container .second1{
+    background-image: url('../imagenes/DDC/optimas/3-min.jpg');
+}
+.bs-pictures--container .second2{
+    background-image: url('../imagenes/DDC/optimas/4.jpg');
+}
+.bs-pictures--container .second3{
+    background-image: url('../imagenes/DDC/optimas/5.jpg');
+}
+.bs-pictures--container .second4{
+    background-image: url('../imagenes/DDC/optimas/6.jpg');
+}
+.bs-pictures--container .second5{
+    background-image: url('../imagenes/DDC/optimas/7.jpg');
+}
+.bs-pictures--container .second6{
+    background-image: url('../imagenes/DDC/optimas/8.jpg');
+}
+.bs-pictures--container .second7{
+    background-image: url('../imagenes/DDC/optimas/9.jpg');
+}
+.bs-pictures--container .second8{
+    background-image: url('../imagenes/DDC/optimas/10.jpg');
+}
+
 
 .production--section{
     display: none;

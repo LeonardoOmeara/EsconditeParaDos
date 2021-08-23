@@ -96,13 +96,22 @@ main .ratio{
 } */
 
 .bs--container {
-    padding: 0 50px;
+    padding: 10px;
 }
 
 .bs-pictures--container {
-    margin: 40px 0;
-    max-width: 800px;
+    width: 100%;
+    margin: 40px 0px;
+    max-width: 1000px;
+    /* max-width: 610px; */
 }
+
+.bs-pictures--container .main1, .bs--container .main2{
+    width: 460px;
+    height: 350px;
+    max-width: none;
+}
+
 
 .production--section{
     background-color: var(--main-blue)

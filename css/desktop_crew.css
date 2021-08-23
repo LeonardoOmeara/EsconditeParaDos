@@ -72,3 +72,25 @@ header .bici{
     top: 75%;
     right: 70px;
 }
+
+.crew-members--section{
+    padding: 0;
+}
+
+.members--container{
+    width: 100vw;
+    max-width: 1200px;
+}
+
+/* .members--container .production--container, .members--container .{
+    width: 95%;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
+.members--container > div{
+    width: 95%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
