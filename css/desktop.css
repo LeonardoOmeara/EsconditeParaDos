@@ -17,7 +17,10 @@
 
 main{
     height: 650px;
+    padding: 0 70px;
 }
+
+
 main iframe{
     margin-top: 10px;
     width: 48rem;
@@ -107,12 +110,16 @@ nav ul li a{
     color: var(--mainRed);
 }
 
+main .ratio {
+    max-width: 840px;
+}
+
 .story-line{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-bottom: 20px;
-    padding: 20px 10%;
+    padding: 80px 10%;
     
 }
 
@@ -138,7 +145,7 @@ nav ul li a{
     width: 270px;
     position: absolute;
     /* top: 935px; */
-    top: -94px;
+    top: 21px;
     right: 84%;
 }
 
@@ -175,6 +182,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     padding: 9% 9% 0;
+    height: 75vh;
 }
 
 
@@ -222,7 +230,7 @@ nav ul li a{
 .how-to-help--section .steps--container .cometa {
     width: 215px;
     position: relative;
-    left: 430px;
+    left: 420px;
     /* bottom: 493px; */
     /* bottom: -68px; */
     top: -735px;

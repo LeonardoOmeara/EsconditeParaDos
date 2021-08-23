@@ -45,7 +45,7 @@
     <main>
         <h1>Teaser</h1>
         <div class="ratio ratio-16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qXkzWu9r0rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fGq9FXBsSKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
     </main>
@@ -70,26 +70,6 @@
             
         </div>
     </section>
-    <section class="intention--section id-intention--section">
-        <div class="intention--container"> 
-            <h2>Notas de Dirección</h2>
-            <p>La etapa de la niñez es parte de nuestro desarrollo como personas, donde se
-                empiezan a desarrollar sus miedos, traumas, fobias y comportamientos que
-                usualmente son ocasionados por el contexto, principalmente el familiar.
-                “Escondite para dos” es un cortometraje del género drama psicológico que
-                muestra la perspectiva de un niño de diez años cegado por la inocencia y la
-                dependencia emocional que ha creado hacia su niñera, la cual provoca que
-                nuestro protagonista sea víctima de uno de los delitos que la sociedad ha
-                ocultado durante mucho tiempo: El abuso a niños por parte del género
-                femenino.
-                Cuando era pequeña mis padres se vieron obligados a trabajar mucho tiempo
-                con el propósito de darnos todo lo necesario a mi hermano y a mí,
-                provocando que la mayor parte de nuestra infancia y crianza se diera con una
-                niñera que entró a nuestras vidas durante nueve años y a quien llegué a
-                llamar “Mamá”. Esta historia nace de la pregunta: ¿Qué pasaría si la persona
-                que me cuidó durante tanto tiempo y con quien creé un lazo maternal,
-                realmente tenía otras intenciones?</p></div>
-    </section>
     <section class="how-to-help--section">
         <div class="help--container">
             <h2>Objetivo</h2>
@@ -99,7 +79,31 @@
                 en un espacio de reflexión que permita reconocer problemáticas que han
                 sido invisibilizadas por la sociedad.</p>
         </div>
-        <div class="steps--container">
+    </section>
+    <section class="intention--section id-intention--section">
+            <div class="intention--container"> 
+                <img class="cometa" src="./imagenes/cometa.png" alt="">
+                <h2>Notas de Dirección</h2>
+                <p>La etapa de la niñez es parte de nuestro desarrollo como personas, donde se
+                    empiezan a desarrollar sus miedos, traumas, fobias y comportamientos que
+                    usualmente son ocasionados por el contexto, principalmente el familiar.
+                    “Escondite para dos” es un cortometraje del género drama psicológico que
+                    muestra la perspectiva de un niño de diez años cegado por la inocencia y la
+                    dependencia emocional que ha creado hacia su niñera, la cual provoca que
+                    nuestro protagonista sea víctima de uno de los delitos que la sociedad ha
+                    ocultado durante mucho tiempo: El abuso a niños por parte del género
+                    femenino.<br>
+                    <br>
+                    Cuando era pequeña mis padres se vieron obligados a trabajar mucho tiempo
+                    con el propósito de darnos todo lo necesario a mi hermano y a mí,
+                    provocando que la mayor parte de nuestra infancia y crianza se diera con una
+                    niñera que entró a nuestras vidas durante nueve años y a quien llegué a
+                    llamar “Mamá”. Esta historia nace de la pregunta: ¿Qué pasaría si la persona
+                    que me cuidó durante tanto tiempo y con quien creé un lazo maternal,
+                    realmente tenía otras intenciones?</p></div>
+    </section>
+
+        <!-- <div class="steps--container">
             <img class="cometa" src="./imagenes/hermano_de_sangre.png" alt="">
             <figure class="first-step-img--container">
                 <img src="./iconos/first-step.svg" alt="">
@@ -113,8 +117,8 @@
                 <img src="./iconos/third-step.png" alt="">
                 <figcaption>Paso</figcaption>
             </figure>
-        </div>
-        <a href="">Continuar con la donacion</a>
+        </div> -->
+        <a class="donation-continue" href="">Continuar con la donacion</a>
     </section>
     <footer>
         <p>Escondite para dos, 2021</p>
@@ -159,7 +163,7 @@
 
         var $nav = $('nav');
         $nav.hide();
-        var altura = ($('main').offset().top)*1.1;
+        var altura = ($('main').offset().top)*0.7;
         $(window).scroll(function(){
             if ($(window).scrollTop() >=altura){
                 $nav.show();
