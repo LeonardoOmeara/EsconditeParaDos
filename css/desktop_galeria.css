@@ -30,6 +30,8 @@ header .desktop-logo{
     padding-top: 2%;
 }
 
+
+
 nav{
     display: block !important;
     height: 0 !important;
@@ -71,6 +73,8 @@ header nav ul .ig-logo-li{
     justify-content: center;
     align-items: center;
 }
+
+
 
 main .ratio{
     max-width: 800px;

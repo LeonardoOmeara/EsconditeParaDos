@@ -48,67 +48,103 @@ header{
     align-items: center;
 
 }
-header .desktop-logo{
+header .desktop-logo, header .contador, header .donacion-img{
     display: none;
 }
 
-.nav--icon{
-    position: relative;
-    right: calc(25% - 35px);
-}
 
-.nav--icon img{
-    width: 20px;
-}
-
-
-.context--section{
-    padding-top: 2rem;
-}
-
-.context--container{
-    width: 80%;
-    border: 0.1rem solid black;
-    height: 95%;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.country--section{
-    background-color: var(--mainRed);
-    height: 110vh;
-}
-
-.country-info--container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 5rem;
-    color: var(--mainWhite);
-}
-
-.country-info--container hr{
-    height: 100%;
-    width: 3px;
+header nav{
+    /* background-color: #B4CACD; */
+    /* height: 64px; */
+    position: fixed;
+    /* left: 20px; */
+    top: 0;
+    width: 100vw;
     background-color: var(--mainWhite);
-    border: none;
-    margin: 1rem 0;
+    z-index: 1;
 }
 
-.country-info--container h2{
-    color: var(--mainWhite);
-    font-size: xx-large;
-}
 
-.country-info--container p{
-    max-width: 60rem;
+header nav ul{
+    list-style: none;
+    display: none;
+    justify-content: center;
+    height: 85vh;
+    /* height: 4rem; */
     text-align: center;
+    background-color: #B4CACD;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+
+header nav ul .ig-logo-li{
+    display: none;
+}
+
+header nav .hide{
+    font-size: 22px;
+    padding: 25px;
+    /* background-color: var(--main-blue); */
+    color: white;
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    top: 21px;
+}
+
+header nav .hide .fa{
+    color: var(--main-blue);
+}
+
+header nav ul li{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #d0cfca;
+}
+
+
+header nav ul li a{
+    font-size: 19px;
+    /* padding: 22px 45px; */
+    transition: all 0.3s ease;
+    color: white;
+    /* display: block; */
+    text-decoration: none;
+}
+
+
+header nav ul li a:hover{
+    background-color: var(--main-blue);
+    height: 100%;
+    width: 100%;
+    /* align-items: ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+
+
+header .logo--container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+header .logo{
+    width: 150px;
+    /* height: auto; */
+    margin: auto 0;
+    position: relative;
+    bottom: 18px;
+}
+
 
 .why-to-help--section{
     height: 70%;
@@ -116,7 +152,7 @@ header .desktop-logo{
 
 .help--container{
     color: var(--main-blue);
-    padding: 4rem 2rem 2rem;
+    padding: 10rem 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +161,7 @@ header .desktop-logo{
 
 .help--container h2{
     font-size: xxx-large;
+    text-align: center;
 
 }
 
@@ -157,24 +194,29 @@ header .desktop-logo{
 
 
 /*****************************************************/
-.ways-to-support--section, .expl--section{
+.ways-to-support--section{
     height: auto;
     padding-top: 5rem;
 }
 
 
 
-.ways-to-support--container, .expl--container{
-    padding: 0 4rem 4rem;
+.ways-to-support--container{
+    width: 332px;
+    /* padding: 0 40px 40px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column  ;
+    flex-direction: column;
     color: var(--main-blue);
+    margin: 0 auto;
+
 }
 
 .way--container{
-    margin-top: 2rem
+    width: 258px;
+    margin-top: 2rem;
+    text-align: center;
 }
 .way--container figure img{
     width: 100px;
@@ -185,31 +227,45 @@ header .desktop-logo{
     font-size: xx-large;
     width: 100%;
     margin-bottom: 2rem;
+    text-align: center;
+    
 }
 
 .chanel-of-support-img{
-    width: 4rem;
-    height: 4rem;
-    background-color: var(--main-blue);
+    width: 200px;
+    /* height: 4rem; */
     margin:0 auto
 }
 
+.chanel-of-support-img img{
+    width: 100%;
+}
+
 .explanation--section{
-    background-color: var(--main-blue);
-    color: var(--secondBlue);
+    /* background-color: var(--main-blue); */
+    /* color: var(--secondBlue); */
     padding-top: 3rem;
 }
 
+.explanation--section .donation-expl-img{
+    width: 100vw;
+    height: auto;
+}
+
+.explanation--section .donation-expl-img img{
+    width: 100%;
+}
+/* 
 .expl--container{
     color: var(--secondBlue);
-}
+} */
 
 footer{
 
     height: 65px;
-    background-color: white;
+    background-color: var(--main-blue);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--mainBlue);
+    color: var(--mainWhite);
 }
