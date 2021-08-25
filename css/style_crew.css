@@ -236,9 +236,10 @@ main{
 .crew-members--section h1{
     color: var(--secondBlue);
     font-weight: 500;
-    font-size:xxx-large;
+    font-size:6.5rem;
     padding: 25px 0;
     text-align: center;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 
@@ -406,9 +407,9 @@ main{
 footer{
     width: inherit;
     height: 65px;
-    background-color: var(--main-blue);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--mainWhite);
+    color: var(--main-blue);
 }

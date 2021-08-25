@@ -215,15 +215,16 @@ main .ratio {
 }
 
 .help--container h2{
-    font-size: xx-large;
+    font-size: 5.5rem;
     max-width: 20rem;
 }
 
 .help--container p{
     max-width: 300px;
     padding-top: 0;
-    font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
+    /* font-family: 'Annie Use Your Telescope', cursive; */
+    /* font-size: 1.9rem; */
 }
 
 .steps--container{
@@ -260,3 +261,13 @@ main .ratio {
     left: 70%;
     margin: 5rem 0;
 }
+
+.info--section{
+    font-size: 2.5rem;
+}
+
+.info--section p{
+    padding: 0 40px;
+    font-size: 2.5rem;
+}
+

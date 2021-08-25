@@ -66,6 +66,9 @@ section{
     background-color: var(--main-blue);
     border-radius: 25px;
     color: var(--mainWhite);
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 2.4rem;
+    /* font-weight: 600; */
 }
 
 header{
@@ -306,10 +309,12 @@ main{
 }
 
 main h1{
+    font-family: 'Annie Use Your Telescope', cursive;
     color: var(--secondBlue);
     font-weight: 500;
-    font-size:xxx-large;
+    font-size:6.5rem;
     padding-bottom: 25px;
+
 }
 
 main .ratio{
@@ -361,7 +366,8 @@ main iframe{
 .story--container h2{
     color: var(--secondBlue);
     font-weight: 500;
-    font-size:xxx-large;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size:6.5rem;
 }
 
 .story--container p{
@@ -455,7 +461,7 @@ main iframe{
     color: var(--main-blue);
     background-color: #B4CACD;
     position: relative;
-    height: 105vh;
+    height: auto;
 
 }
 
@@ -482,7 +488,8 @@ main iframe{
 }
 
 .intention--container h2{
-    font-size: x-large;
+    font-size: 4rem;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 .intention--container p, .help--container p{
@@ -490,11 +497,13 @@ main iframe{
     line-height: 1.2;
     padding: 2px;
     padding-top: 10px;
+    line-height: 20px;
 }
 
 .help--container h2{
     width: 55%;
-    font-size: x-large;
+    font-size: 4rem;
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 .help--container{
@@ -566,20 +575,28 @@ main iframe{
 .info--section{
     font-family: 'Annie Use Your Telescope', cursive;
     width: 100vw;
-    height: 300vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     /* max-width: 600px; */
     align-items: center;
     justify-content: space-evenly;
     padding: 22px;
-    padding-top: 120px;
+    padding-top: 70px;
 
+}
+
+.info--section > *{
+    margin-bottom: 30px
 }
 
 .info--section h3{
     font-size: 3.5rem;
     color: #529ED4;
+}
+
+.info--section p{
+    font-size: 2rem;
 }
 
 .info--section .paperplane{
