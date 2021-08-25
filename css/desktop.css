@@ -138,10 +138,22 @@ main .ratio {
 }
 
 .story-line--pictures--container{
-    margin:auto
+    margin:auto;
+    width: 70%;
 }
 
-.story-line img{
+.story-line--pictures--container .first-picture {
+    width: 98%;
+    min-width: 243px;
+}
+
+.story-line--pictures--container .mini--picture {
+    /* background-color: white; */
+    min-width: 147px;
+    width: 46%;
+}
+
+.story-line .world{
     width: 270px;
     position: absolute;
     /* top: 935px; */

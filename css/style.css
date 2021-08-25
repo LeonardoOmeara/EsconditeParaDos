@@ -349,12 +349,12 @@ main iframe{
     /* position: relative; */
 }
 
-.story-line img{
+.story-line .world{
     width: 270px;
     position: absolute;
     /* top: 935px; */
     bottom: 88px;
-    right: 57%;
+    right: 72%;
 
 }
 
@@ -372,7 +372,7 @@ main iframe{
 }
 
 .story-line--pictures--container{
-    width: 192px;
+    /* width: 289px; */
     height: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -381,38 +381,74 @@ main iframe{
     justify-content: center;
     padding: 40px 0;
 }
+
+.story-line--pictures--container .first-picture{
+    width: 74%;
+    min-width: 243px;
+}
+.story-line--pictures--container .second-picture{
+    width: 160px;
+}
+.story-line--pictures--container .third-picture{
+    width: 160px;
+}
+.story-line--pictures--container .fourth-picture{
+    width: 160px;
+}
+.story-line--pictures--container .five-picture{
+    width: 160px;
+}
     
 
 .story-line--pictures--container div{
-    margin: 4.5px;
+    margin: 6px;
     border-radius: 1px;
 
 
 }
 
-.story-line--pictures--container .mini--picture{
-    background-color: white;
-    width: 60px;
-    height: 60px;
-}
 
-#id-first--picture{
-    width: 150px;
-    height: 138px;
-    margin-bottom: 0px;
-    background-color: white;
+.story-line--pictures--container .first-picture img{
+    width: 100%;
 }
 
 .mini--pictures--container{
-    height: 30%;
-    width: 150px;
+    /* height: 30%; */
+    width: 96%px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
+.story-line--pictures--container .mini--picture{
+    /* background-color: white; */
+    min-width: 147px;
+    width: 34%;
 
+}
+
+/* #id-first--picture{
+    width: 150px;
+    height: auto;
+    margin-bottom: 0px;
+    background-color: white;
+} */
+
+
+
+.story-line--pictures--container .second-picture img{
+    width: 100%;
+}
+.story-line--pictures--container .third-picture img{
+    width: 100%;
+}
+.story-line--pictures--container .fourth-picture img{
+    width: 100%;
+}
+.story-line--pictures--container .five-picture img{
+    width: 100%;
+}
 
 .intention--section{
     display: flex;
@@ -481,7 +517,8 @@ main iframe{
     padding:4px 15px;
     text-decoration: none;
     /* display: block; */
-    margin: 20px auto 0;
+    /* margin: 20px auto 0; */
+    text-align: center;
  
 }
 
@@ -524,6 +561,64 @@ main iframe{
 .steps--container figure figcaption{
     text-align: center;
 }
+
+
+.info--section{
+    font-family: 'Annie Use Your Telescope', cursive;
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 600px; */
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 22px;
+    padding-top: 120px;
+
+}
+
+.info--section h3{
+    font-size: 3.5rem;
+    color: #529ED4;
+}
+
+.info--section .paperplane{
+    width: 200px;
+    transform: rotate(20deg);
+}
+
+.abuse-count--container{
+    width: 100vw;
+    background-color: #FFF6C3;
+    padding: 22px;
+}
+
+.women-count--container, .men-count--container{
+    text-align: center;
+    padding: 30px 0;
+}
+.women-count--container .number-one, .men-count--container .number-one{
+    width: 45px;
+}
+
+.women-count--container .of, .men-count--container .of{
+    display: inline;
+    font-size: 6rem
+}
+
+.women-count--container .number-two, .men-count--container .number-two{
+    width: 65px;
+}
+
+.men-count--container .number-two{
+    width: 115px;
+}
+
+.men-count--container .men-table{
+    width: 300px;
+}
+
+
 
 
 footer{

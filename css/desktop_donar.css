@@ -100,3 +100,11 @@ header nav ul .ig-logo-li{
     width: 100%;
     justify-content: space-around;
 }
+
+.explanation--section .donation-expl-img {
+    text-align: center;
+}
+
+.explanation--section .donation-expl-img img{
+    max-width: 80vw;
+}
