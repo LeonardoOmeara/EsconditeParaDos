@@ -17,18 +17,22 @@ header .desktop-logo{
     width: 30vw;
     /* padding-top: 2%; */
     position: relative;
+    left: 45%;
+    top: 13%;
 }
 
 header .contador{
-    width: 100px;
+    width: 30%;
     display: block;
     position: relative;
+    right: 156px;
 
 }
 header .donacion-img{
-    width: 500px;
     display: block;
- 
+    right: 27%;
+    position: relative;
+    width: 560px;
 
 }
 
@@ -63,7 +67,7 @@ nav ul li a{
 
 header nav ul li a:hover{
     background-color: white;
-    color: var(--main-blue);
+    color: var(--main-blue) !important;
 }
 
 header nav ul .ig-logo-li{
@@ -81,6 +85,8 @@ header nav ul .ig-logo-li{
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    max-width: none
+    /* margin: 0 auto; */
 }
 
 .why-to-help--section{
