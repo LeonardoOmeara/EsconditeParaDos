@@ -110,11 +110,25 @@ main .ratio{
     /* max-width: 610px; */
 }
 
+.bs-pictures--container .picture--container{
+    width: 360px;
+    height: 250px;
+}
+
 .bs-pictures--container .main1, .bs--container .main2{
     width: 460px;
     height: 350px;
     max-width: none;
 }
+
+.bs-pictures--container .video {
+    /* min-width: 227px; */
+    width: 50%;
+    max-width: 250px;
+    margin: 10px;
+}
+
+
 
 
 .production--section{

@@ -100,6 +100,10 @@ header nav ul .ig-logo-li{
     width: 40%;
 }
 
+.ways-to-support--container{
+    flex-direction: row;
+    width: auto;
+}
 
 .imgs--container{
     display: flex;

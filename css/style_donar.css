@@ -162,7 +162,7 @@ header .logo{
 }
 
 .help--container h2{
-    color: var(--main-blue);
+    color: var(--secondBlue);
     /* font-weight: 500; */
     font-family: 'Annie Use Your Telescope', cursive;
     font-size:5.5rem;
@@ -172,8 +172,9 @@ header .logo{
 
 .help--container p{
     font-size: 1.5rem;
-    padding: 30px 15px;
-    color: var(--main-blue);
+    padding: 48px 15px;
+    color: var(--secondBlue);
+    line-height: 24px;
 }
 
 /* 
@@ -221,20 +222,26 @@ header .logo{
 
 .way--container{
     width: 258px;
-    margin-top: 2rem;
+    margin-top: 6rem;
     text-align: center;
 }
 .way--container figure img{
-    width: 100px;
+    width: 70px;
     margin-top: 20px;
 }
 
-.ways-to-support--container h2, .expl--container h2{
-    font-size: xx-large;
+.ways-to-support--container h2{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 5rem;
     width: 100%;
     margin-bottom: 2rem;
     text-align: center;
+    color: var(--main-blue);
     
+}
+
+.way--container .first-step-img--container img{
+    width: 55px;
 }
 
 .chanel-of-support-img{
@@ -265,6 +272,10 @@ header .logo{
 .expl--container{
     color: var(--secondBlue);
 } */
+
+.why-to-help--section{
+    background-color: var(--main-blue);
+}
 
 footer{
 

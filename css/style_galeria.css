@@ -183,10 +183,11 @@ main .ratio{
 }
 
 .bs--container h1{
+    font-family: 'Annie Use Your Telescope', cursive;
     color: var(--main-blue);
     font-weight: 500;
     width: 50%;
-    font-size:3.5rem;
+    font-size:4.5rem;
     text-align: center;
 }
 
@@ -197,6 +198,18 @@ main .ratio{
     justify-content: center;
     align-items: center;
     max-width: 610px;
+}
+
+.bs-pictures--container .video1{
+    min-width: 290px;
+    width: 75%;
+    max-width: 600px;
+}
+.bs-pictures--container .video{
+    min-width: 227px;
+    width: 50%;
+    max-width: 600px;
+    margin: 10px;
 }
 
 .picture--container{
