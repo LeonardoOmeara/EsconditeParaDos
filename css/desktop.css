@@ -69,8 +69,15 @@ header nav ul .ig-logo-li{
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
+
+}
+/* header nav ul .ig-logo{
+background-image: url('../iconos/ig.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} */
 
 
 /* .main--nav ul{
