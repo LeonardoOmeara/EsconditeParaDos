@@ -26,11 +26,6 @@ body{
     font-family: 'Georama', sans-serif;
 }
 
-/* 
-section{
-    height: 100vh;
-} */
-
 .init{
 
     background-image: url('../imagenes/init-img.jpg');
@@ -71,6 +66,9 @@ section{
     /* font-weight: 600; */
 }
 
+/************************** HEADER ************************/
+
+
 header{
     background-color: #B4CACD;
     width: 100vw;
@@ -84,12 +82,6 @@ header{
 header .desktop-logo{
     display: none;
 }
-/* 
-header nav{
-    background-color: var(--main-blue);
-} */
-
-
 
 header nav{
     /* background-color: #B4CACD; */
@@ -181,118 +173,9 @@ header .logo{
     position: relative;
     bottom: 18px;
 }
-/* header ul li{
-    width: 100%;
-} */
 
-/* header nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+/************************** MAIN ************************/
 
-/* header .main--nav .nav--button{
-    position: relative;
-    right: 55px;
-} */
-
-/* header .logo{
-    display: block;
-    width: 45%;
-    height: auto;
-} */
-
-/* .main--nav .nav--button{
-    order: 0;
-
-} */
-
-/* 
-.main--nav ul{
-    position: fixed;
-    top: 60px;
-    left: 0;
-    background-color: var(--mainRed);
-    height: 0vh;
-    width: 100%;
-    display:;
-    list-style: none;
-    text-align: center;
-    transition: all 0.3s ease;
-    float: right;
-    display: none;
-    
-} */
-
-/* .main--nav ul li{
-    line-height: 50px;
-    opacity: 0;
-} */
-
-/* .main--nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 20px;
-    padding: 18px 13px;
-    transition: all 0.3s ease;
-    padding: 18px 13px;
-    display: block;
-
-} */
-
-
-/* 
-.main--nav ul li a:hover, .main--nav ul li a.active {
-    color: var(--mainRed);
-    background-color: white;
-
-}
-
-
-.main--nav .nav--button{
-    display: block;
-    font-size: 23px;
-    color: var(--mainRed);
-    cursor: pointer;
-
-}
-
-  
-
-#check {
-    display: none;
-}
-
-#check:checked ~ ul{
-    height: 100vh;
-}
-
-#check:checked ~ ul li{
-    opacity: 1;
-} */
-
-
-
-
-/* header{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    color: var(--mainWhite);
-} */
-
-/* .nav--icon{
-    display: block;
-    /* right: calc(25% - 35px); 
-}
-
-.nav--icon img{
-    width: 20px;
-} 
-*/
 
 main{
     /* font-size: normal; */
@@ -320,13 +203,9 @@ main h1{
 main .ratio{
     max-width: 465px;
 }
-/* 
-main iframe{
-    margin-top: 10px;
-    height: 20rem;
-    width: 30rem;
 
-} */
+
+/************************** SECTION STOTYLINE ************************/
 
 .story-line{
     background-color: #121B23;
@@ -339,7 +218,6 @@ main iframe{
     align-items: center;
     justify-content: center;
     position: relative;
-
     
 }
 
@@ -352,6 +230,7 @@ main iframe{
     /* margin: 0 auto; */
     padding: 0 40px;
     /* position: relative; */
+
 }
 
 .story-line .world{
@@ -371,10 +250,11 @@ main iframe{
 }
 
 .story--container p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: 2px;
     padding-top: 10px;
     color: var(--secondBlue);
+    line-height: 22px;
 }
 
 .story-line--pictures--container{
@@ -456,120 +336,141 @@ main iframe{
     width: 100%;
 }
 
-.intention--section{
-    display: flex;
+
+
+
+/************************** SECTION GOAL (help) ************************/
+
+.how-to-help--section{
+    /* height: 60vh; */
+    padding: 40px 0px;
     color: var(--main-blue);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.how-to-help--section h2{
+    /* width: 55%; */
+    font-size: 5rem;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.help--container{
+    /* display: flex; */
+    /* width: 60%; */
+    /* min-width: 325px;
+    max-width: 450px; */
+    /* margin: var(--marginSections) auto 0; */
+    /* padding: 0 30px; */
+    /* height: 500px; */
+    color: #214255;
+    /* justify-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .help--container .goal-img{
+    display: none;
+} */
+.help--container .goal-img{
+    /* display: none; */
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px grey;
+}
+
+.help--container p{
+    font-size: 1.6rem;
+    line-height: 22px;
+    width: 80%;
+    margin: 22px auto;
+}
+
+
+/* PARA ORDENADOR */
+/* .help--container .goal-img{
+    width: 200px;
+    border-radius: 50%;    
+} */
+
+
+/************************** SECTION NOTAS DE DIRECCION (intention) ************************/
+
+
+
+
+.intention--section{
+    padding: 40px 0px;
+    /* display: flex; */
+    color: #214255;
     background-color: #B4CACD;
     position: relative;
-    height: auto;
-
 }
 
-.intention--section img{
+
+
+.intention--section .cometa{
     width: 32%;
-    /* max-width: 111px; */
+    max-width: 160px;
     position: absolute;
-    left: -17%;
-    top: 231px;
+    left: -55px;
+    top: 190px;
 }
 
-.intention--container, .help--container{
+.intention--container{
+    display: flex;
+    justify-content: center;
+}
+
+.intention--container h2{
+    font-size: 5rem;
+    font-family: 'Annie Use Your Telescope', cursive;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    color: var(--main-blue);
+}
+
+.intention--container .niñoniña{
+    display: none;
+}
+
+
+.intention--section p{
+    width: 80%;
+    margin: 22px auto;
+    font-size: 1.6rem;
+    line-height: 22px;
+
+}
+
+/* .intention--container{
     width: 60%;
     min-width: 325px;
     max-width: 450px;
     margin: var(--marginSections) auto 0;
     padding: 0 30px;
     color: #214255;
-}
+} */
 
-.intention--container{
+/* .intention--container{
     margin-top: 60px;
-    position: relative;
-}
+    position: relative; 
+}*/
 
-.intention--container h2{
+/* .intention--container h2{
     font-size: 4rem;
     font-family: 'Annie Use Your Telescope', cursive;
-}
+} */
 
-.intention--container p, .help--container p{
-    font-size: 1.6rem;
-    line-height: 1.2;
-    padding: 2px;
-    padding-top: 10px;
-    line-height: 22px;
-}
-
-.help--container h2{
-    width: 55%;
-    font-size: 4rem;
-    font-family: 'Annie Use Your Telescope', cursive;
-}
-
-.help--container{
-    margin-top: 0px;
-}
-
-.how-to-help--section{
-    height: 60vh;
-    padding: 40px 0px;
-    color: var(--main-blue);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.donation-continue{
-    width: 200px;
-    background-color: var(--main-blue);
-    border-radius: 12px;
-    color: var(--mainWhite);
-    padding:4px 15px;
-    text-decoration: none;
-    /* display: block; */
-    /* margin: 20px auto 0; */
-    text-align: center;
- 
-}
-
-.steps--container{
-    width: 45%;
-    min-width: 254px;
-    max-width: 450px;
-    margin: 80px auto 0px;
-    padding: 0 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    position:relative;
-    
-}
-
-.steps--container .cometa{
-    width: 68%;
-    /* max-width: 111px; */
-    position: absolute;
-    right: 65%;
-    top: 100px;
-}
+/************************** SECCION INFORMACION ************************/
 
 
-
-.donation-continue{
-    display: block;
-    width: 210px;
-    margin: 0 auto;
-}
-
-.steps--container figure img{
-    width: 100px;
-    margin-top: 20px;
-    
-}
-
-.steps--container figure figcaption{
-    text-align: center;
-}
+/************************** SECCION INFO ************************/
 
 
 .info--section{
@@ -581,15 +482,37 @@ main iframe{
     /* max-width: 600px; */
     align-items: center;
     justify-content: space-evenly;
-    padding: 22px;
-    padding-top: 70px;
+    padding: 40px 0;
 
+    font-size: 2rem;
+    line-height: 24px
+
+
+}
+
+.info--section .la-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info--section .la-info h3{
+    font-size: 4rem;
+    color: #529ED4;
+    text-align: center;
+}
+
+.info--section .la-info p{
+    width: 80%;
+    margin: 22px auto;
+    font-size: 2rem;
+    line-height: 24px;
 }
 
 .info--section > *{
     margin-bottom: 30px
 }
-
+/* 
 .info--section h3{
     font-size: 3.3rem;
     color: #529ED4;
@@ -597,7 +520,7 @@ main iframe{
 
 .info--section p{
     font-size: 2rem;
-}
+} */
 
 .info--section .paperplane{
     width: 200px;
@@ -608,6 +531,9 @@ main iframe{
     width: 100vw;
     background-color: #FFF6C3;
     padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .women-count--container, .men-count--container{
@@ -635,8 +561,56 @@ main iframe{
     width: 300px;
 }
 
+.abuse-count--container .shoe{
+    width: 100px;
+}
+
+.girl--container{
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.girl--container p{
+    text-align: initial;
+}
+
+.girl--container .second-p{
+    width: 80%;
+    margin: 22px auto;
+    font-size: 2rem;
+    line-height: 24px;
+}
 
 
+
+.girl--container .cifra{
+    position: relative;
+    /* top: -64px; */
+    left: 84px;
+    bottom: 52px;
+}
+
+.donation-continue{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+}
+
+.donation-continue{
+    width: 200px;
+    background-color: var(--main-blue);
+    border-radius: 12px;
+    color: var(--mainWhite);
+    padding:4px 15px;
+    text-decoration: none;
+    /* display: block; */
+    /* margin: 20px auto 0; */
+    text-align: center;
+ 
+}
 
 footer{
     width: inherit;

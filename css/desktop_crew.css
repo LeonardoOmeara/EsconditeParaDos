@@ -63,6 +63,21 @@ header nav ul .ig-logo-li{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+}
+
+header nav ul .ig-logo-li a{
+    padding: 16px 0 !important;
+}
+
+header nav ul li .ig-logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../iconos/ig2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header .bici{
     display: initial;

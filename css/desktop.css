@@ -11,21 +11,52 @@
     display: none;
 }
 
-/* body{
-    font-size: 2rem;
+/* html{
+    font-size: 1rem;
 } */
 
-main{
-    height: 650px;
-    padding: 0 70px;
-}
+
+/************************** MAIN ************************/
 
 
-main iframe{
-    margin-top: 10px;
-    width: 48rem;
-    height: 28rem;
+
+/************************** HEADER ************************/
+
+header{
+    height: 100vh;
 }
+
+header .desktop-logo{
+    display: block;
+    width: 100vw;
+    padding-top: 2%;
+}
+
+header nav ul .ig-logo-li{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+header nav ul .ig-logo-li a{
+    padding: 16px 0 !important;
+}
+
+header nav ul li .ig-logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../iconos/ig2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/************************** NAV ************************/
+
 
 nav{
     display: block !important;
@@ -49,90 +80,48 @@ nav ul li a{
     padding: 22px 30px !important;
 }
 
-/* nav ul li .active{
-
-} */
-
-header{
-    height: 100vh;
-}
-
-header .desktop-logo{
-    display: block;
-    width: 100vw;
-    padding-top: 2%;
-}
-
-header nav ul .ig-logo-li{
-    width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 
-}
-/* header nav ul .ig-logo{
-background-image: url('../iconos/ig.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-} */
-
-
-/* .main--nav ul{
-    width: 100%;
-    display: flex;
-    height: auto;
-    justify-content: space-evenly;
-    background-color: var(--mainRed);
-    list-style: none;
-    position: initial;
-    align-items: center;
-} */
-
-/* .main--nav ul li{
-    min-width: 125px;
-    
-} */
-
-/* .main--nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
-    /* padding: 18px 13px; 
-    transition: all 0.3s ease;
-} */
-
-nav ul li a{
+/* nav ul li a{
     font-size: 17px;
-    padding: 22px ;;
+    padding: 22px ;
     width: 100%;
 
-}
+} */
 
 .main--nav ul li a:hover{
     background-color: white;
     color: var(--mainRed);
 }
 
+/************************** MAIN ************************/
+
+main{
+    height: 650px;
+    padding: 0 70px;
+}
+main h1{
+    font-size: 8rem;
+}
+
 main .ratio {
     max-width: 840px;
 }
 
+/************************** SECCION STORYLINE ************************/
+
 .story-line{
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    padding-bottom: 20px;
-    padding: 80px 10%;
+    /* align-items: center; */
+    /* padding-bottom: 20px; */
+    padding: 80px 8%;
     
 }
 
 .story-line p{
     max-width: 355px;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    line-height: 30px
 }
 
 
@@ -142,6 +131,7 @@ main .ratio {
 
 .story--container h2{
     color: var(--secondBlue);
+    font-size: 8rem;
 }
 
 .story-line--pictures--container{
@@ -168,52 +158,46 @@ main .ratio {
     right: 84%;
 }
 
-.intention--section{
-    /* background-color: var(--mainRed); */
-    flex-direction: row-reverse;
-    height: 100vh;
-    /* position: relative; */
-
-}
-
-.intention--section img{
-    width: 21%;
-    /* max-width: 111px; */
-    left: 47%;
-    top: 231px;
-}
-
-.intention--section h2{
-    font-size: xx-large;
-}
-
-.intention--container{
-    width: 80%; 
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-    width: 100vw;
-    max-width: none;
-    margin: 0;
-    padding: 0;
-}
-
-.intention--container p{
-    max-width: 355px;
-    font-size: 1.5rem;
-
-}
+/************************** SECCION GOAL ************************/
+/* 
+.how-to-help--section{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding: 9% 3% 0; */
+    /* height: 80vh; 
+}  */
 
 .how-to-help--section{
-    display: flex;
-    flex-direction: column;
-    padding: 9% 9% 0;
-    height: 75vh;
+    padding: 70px 12%;
+    height: 500px;
+}
+.how-to-help--section h2{
+    font-size: 8rem;
+    text-align: start;
+    margin-bottom: 50px;
+    /* padding-left: 23px; */
 }
 
 
 .help--container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.help--container p{
+    width: 62%;
+    margin: unset;
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 30px
+}
+
+.help--container .goal-img{
+    width: 215px;
+}
+
+
+/* .help--container{
     width: 100%;
     max-width: 100vw;
     display: flex;
@@ -227,48 +211,74 @@ main .ratio {
 }
 
 .help--container p{
-    max-width: 300px;
+    max-width: 400px;
     padding-top: 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    line-height: 28px; */
     /* font-family: 'Annie Use Your Telescope', cursive; */
-    /* font-size: 1.9rem; */
+    /* font-size: 1.9rem; 
 }
 
-.steps--container{
-    width: 100%;
+.help--container img{
+    width: 24%;
+    border-radius: 50%;
+    box-shadow: 1px 4px 5px;
+} */
+
+.intention--container .niñoniña{
+    display: initial;
+}
+
+
+/************************** SECCION NOTAS DE DIRECCION (intention) ************************/
+.intention--section{
     display: flex;
-    justify-content: space-around;
+    padding: 70px 6% 70px 12%;
+    justify-content: space-between;
+}
+
+.intention--section p{
+    width: 50%;
+    margin: unset;
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 30px;
+
+}
+
+.intention--container{
+    flex-direction: column;
     align-items: center;
-    max-width: none;
-    margin: 0;
-    padding-top: 7rem;
-    position: initial;
-    padding-right: 215px;
-    flex-wrap: nowrap;
-
+    order: 1;
 }
 
-
-
-.steps--container figure img {
-    width: 188px;
-    margin-top: 20px;
+.intention--container h2{
+    text-align: center;
+    font-size: 7rem;
+    margin-bottom: 20px;
 }
 
-.how-to-help--section .steps--container .cometa {
+.intention--container .niñoniña{
+    /* display: none; */
     width: 215px;
-    position: relative;
-    left: 420px;
-    /* bottom: 493px; */
-    /* bottom: -68px; */
-    top: -735px;
-}
-.how-to-help--section a{
-    position: relative;
-    left: 70%;
-    margin: 5rem 0;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px grey;
 }
 
+/************************** SECCION INFO ************************/
+.info--section{
+    padding: 70px 12%;
+}
+
+.info--section h3{
+    font-size: 7rem;
+    text-align: center;
+}
+
+.info--section p{
+    font-size: 2.6rem;
+}
+/* 
 .info--section{
     font-size: 2.5rem;
 }
@@ -276,5 +286,5 @@ main .ratio {
 .info--section p{
     padding: 0 40px;
     font-size: 2.5rem;
-}
+} */
 
