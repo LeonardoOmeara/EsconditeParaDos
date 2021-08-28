@@ -184,7 +184,7 @@ main{
     /* text-align: center; */
     padding: 70px 24px;
     background-color: var(--main-blue);
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
