@@ -490,10 +490,15 @@ main .ratio{
 
 }
 
+.info--section .fondo{
+    display: none;
+}
+
 .info--section .la-info{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .info--section .la-info h3{
@@ -522,9 +527,15 @@ main .ratio{
     font-size: 2rem;
 } */
 
+
+/* Para */
 .info--section .paperplane{
-    width: 200px;
-    transform: rotate(20deg);
+    width: 33%;
+    transform: rotate(64deg);
+    position: absolute;
+    left: -11%;
+    top: 54px;
+
 }
 
 .abuse-count--container{
@@ -553,15 +564,23 @@ main .ratio{
     width: 65px;
 }
 
+.women-count--container strong{
+    color: #C4A1C4;
+}
+.men-count--container strong{
+    color: #2B368D;
+}
+
 .men-count--container .number-two{
     width: 115px;
 }
 
 .men-count--container .men-table{
-    width: 300px;
+    width: 520px;
 }
 
 .abuse-count--container .shoe{
+    display: none;
     width: 100px;
 }
 
@@ -579,7 +598,7 @@ main .ratio{
 
 .girl--container .second-p{
     width: 80%;
-    margin: 22px auto;
+    margin: -38 auto;
     font-size: 2rem;
     line-height: 24px;
 }
@@ -614,12 +633,17 @@ main .ratio{
 
 footer{
     width: inherit;
-    height: 65px;
+    /* height: 65px; */
     background-color: var(--main-blue);
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--mainWhite);
+    flex-direction: column;
 }
 
-
+.footer-img{
+    width: 50px;
+    margin: 5px;
+    margin-top: 0;
+}

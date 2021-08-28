@@ -267,7 +267,19 @@ main .ratio {
 
 /************************** SECCION INFO ************************/
 .info--section{
-    padding: 70px 12%;
+    padding: 70px 5%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.info--section .fondo{
+    width: 47%;
+    height: 100%;
+    position: absolute;
+    left: -35px;
+    top: -2px;
 }
 
 .info--section h3{
@@ -275,9 +287,60 @@ main .ratio {
     text-align: center;
 }
 
+.info--section .la-info{
+    order: 1;
+    z-index: 0;
+}
+
+.info--section .la-info p {
+
+    font-size: 2.5rem;
+    line-height: 30px;
+
+}
+
+.info--section .paperplane {
+    width: 33%;
+    transform: rotate(
+50deg
+);
+    position: absolute;
+    left: -15%;
+    top: 12px;
+}
+
 .info--section p{
     font-size: 2.6rem;
 }
+
+.info--section .fondo{
+    display: inline;
+}
+
+.abuse-count--container{
+    background-color: initial;
+    padding: 0;
+    z-index: 0;
+}
+
+.abuse-count--container .shoe {
+    display: none;
+}
+
+.girl--container{
+    order: 2;
+}
+
+.girl--container .second-p{
+    font-size: 2.5rem;
+}
+.girl--container .cifra{
+    width: 100px;
+}
+
+/* .la-info, .abuse-count--container, .girl--container{
+    width: 30%;
+} */
 /* 
 .info--section{
     font-size: 2.5rem;
@@ -287,4 +350,17 @@ main .ratio {
     padding: 0 40px;
     font-size: 2.5rem;
 } */
+
+.donation-continue{
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 30px auto;
+    position: absolute;
+    bottom: -9px;
+    right: 158px;
+    font-size: 2.5rem;
+    padding: 9px;
+    width: 250px;
+    right: 120px;
+    box-shadow: 0px 8px 10px grey;
+}
 

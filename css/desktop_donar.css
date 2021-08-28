@@ -10,27 +10,31 @@
 header{
     background-color: var(--main-blue);
     height: 100vh;
+    position: relative;
 }
 
 header .desktop-logo{
     display: block;
-    width: 30vw;
+    width: 133px;
     /* padding-top: 2%; */
-    position: relative;
-    left: 45%;
-    top: 13%;
+    position: absolute;
+    left: 8%;
+    top: 58%;
+    /* z-index: 1; */
+    transform: rotate(30deg);
+
 }
 
 header .contador{
     width: 30%;
     display: block;
     position: relative;
-    right: 156px;
+    right: 13px;
 
 }
 header .donacion-img{
     display: block;
-    right: 27%;
+    right: 11%;
     position: relative;
     width: 560px;
 
@@ -104,8 +108,16 @@ header nav ul li .ig-logo{
     /* margin: 0 auto; */
 }
 
+.help--container h2{
+    font-size: 6.5rem;
+}
+
 .why-to-help--section{
-    height: 75vh;
+    height: auto;
+}
+
+.help--container{
+    padding: 20px;
 }
 
 .help--container h2{
@@ -115,21 +127,85 @@ header nav ul li .ig-logo{
     width: 40%;
 }
 
+
+
 .ways-to-support--container{
     flex-direction: row;
     width: auto;
+    align-items: center;
 }
 
-.imgs--container{
+.ways-to-support--container h2{
+    font-size: 6.5rem;
+}
+
+.way--container{
+    width: 258px;
+    margin-top: 6rem;
+    text-align: center;
+    height: 250px;
+}
+
+.donar-contenido{
+    background-color: #fcf0ff;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: var(--main-blue);
+    border: 10px solid #210049;
+  }
+  .donar{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:-118px;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #midonar:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+.donar-contenido .otrologo{
+    width: 251px;
+    margin: 20px 0;;
+}
+.donar-contenido a{
+    color: var(--main-blue);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.donar-contenido h2{
+    font-size: 4rem;
+    color: var(--main-blue);
+}
+
+.nequi .logo{
+    margin-top: 50px;
+
+}
+
+.vaki{
+    margin-left: 20px;
+}
+/* .imgs--container{
     display: flex;
     width: 100%;
     justify-content: space-around;
-}
+} */
 
 .explanation--section .donation-expl-img {
     text-align: center;
 }
 
 .explanation--section .donation-expl-img img{
-    max-width: 80vw;
+    max-width: 69vw;
 }
+

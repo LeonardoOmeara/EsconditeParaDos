@@ -11,7 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style: none;
 }
 
@@ -236,7 +236,7 @@ main{
 .crew-members--section h1{
     color: var(--secondBlue);
     font-weight: 500;
-    font-size:6.5rem;
+    font-size:8.5rem;
     padding: 25px 0;
     text-align: center;
     font-family: 'Annie Use Your Telescope', cursive;
@@ -319,7 +319,7 @@ main{
 
 .department .title{
     color: white;
-    font-size: xxx-large;
+    font-size: 5rem;
     font-family: 'Annie Use Your Telescope', cursive;
     text-align: center;
     width: 100%;
@@ -399,17 +399,49 @@ main{
 .member18 .circle{
     background-image: url(../imagenes/miembros/18.jpeg);
 }
+.member19 .circle{
+    background-image: url(../imagenes/miembros/19.jpeg);
+}
 
 .just-member--container p{
-    color: var(--secondBlue);
+    color: white;
+    font-size: 1.7rem;
 }
+
+.just-member--container .instagram{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 3rem;
+    transition: all 0.3s ease;
+}
+
+.just-member--container .instagram:hover{
+    font-size: 4.2rem;
+    color: var(--secondBlue);
+    transition: all 0.3s ease;
+}
+
+
+
+/* .art--container .just-member--container{
+    background-color: #342323;
+}
+.production--container .just-member--container{
+    background-color: #233426;
+} */
 
 footer{
     width: inherit;
-    height: 65px;
-    background-color: white;
+    /* height: 65px; */
+    background-color: #3b3b3b;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-blue);
+    color: var(--mainWhite);
+    flex-direction: column;
+}
+
+.footer-img{
+    width: 50px;
+    margin: 5px;
+    margin-top: 0;
 }

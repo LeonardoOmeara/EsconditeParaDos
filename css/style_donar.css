@@ -152,7 +152,7 @@ header .logo{
 
 .help--container{
     color: var(--main-blue);
-    padding: 10rem 2rem 2rem;
+    padding: 120px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,16 +165,19 @@ header .logo{
     color: var(--secondBlue);
     /* font-weight: 500; */
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size:5.5rem;
+    font-size:6.5rem;
     text-align: center;
 
 }
 
 .help--container p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 48px 15px;
     color: var(--secondBlue);
-    line-height: 24px;
+    line-height: 30px;
+
+
+
 }
 
 /* 
@@ -203,7 +206,7 @@ header .logo{
 /*****************************************************/
 .ways-to-support--section{
     height: auto;
-    padding-top: 5rem;
+    padding: 5rem;
 }
 
 
@@ -224,6 +227,7 @@ header .logo{
     width: 258px;
     margin-top: 6rem;
     text-align: center;
+    transition: all 0.3s ease;
 }
 .way--container figure img{
     width: 70px;
@@ -232,8 +236,8 @@ header .logo{
 
 .ways-to-support--container h2{
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 5rem;
-    width: 100%;
+    font-size: 6.5rem;
+    /* width: 100%; */
     margin-bottom: 2rem;
     text-align: center;
     color: var(--main-blue);
@@ -241,13 +245,75 @@ header .logo{
 }
 
 .way--container .first-step-img--container img{
-    width: 55px;
+    width: 51px;
+}
+
+.way--container:hover{
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px grey;
+}
+
+
+
+.donar-contenido{
+    background-color: #fcf0ff;
+    width: 300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: var(--main-blue);
+    border: 10px solid #210049;
+    
+  }
+  .donar{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:5%;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #midonar:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+.donar-contenido .otrologo{
+    width: 251px;
+    margin: 20px 0;;
+}
+
+.donar-contenido .qr{
+    width: 45%;
+}
+.donar-contenido a{
+    color: #210049;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.donar-contenido h2{
+    font-size: 3.5rem;
+    color: var(--main-blue);
+}
+  /* .nequi{
+    filter: blur(6px);
+  } */
+.donar-contenido p{
+    /* font-family: 'Annie'; */
+    font-size: 2rem;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: bold;
 }
 
 .chanel-of-support-img{
     width: 200px;
-    /* height: 4rem; */
-    margin:0 auto
+     height: 4rem; 
+     margin:0 auto 
 }
 
 .chanel-of-support-img img{
@@ -278,11 +344,18 @@ header .logo{
 }
 
 footer{
-
-    height: 65px;
+    width: inherit;
+    /* height: 65px; */
     background-color: var(--main-blue);
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--mainWhite);
+    flex-direction: column;
+}
+
+.footer-img{
+    width: 50px;
+    margin: 5px;
+    margin-top: 0;
 }
